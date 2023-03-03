@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {AddCategory} from "./components/AddCategory"
 import {GifGrid} from './components/GifGrid'
+//import  useCounter  from './hooks/useCounter'
 const categories = ['empanada', 'hamborguesa']
 
  
@@ -15,7 +16,9 @@ export const GifExpertApp = () =>{
     
     return(
         <>
+        
          <h1>GitExpert</h1> 
+        
         <AddCategory onAddCategory ={onAddCategory}/>
         {
             categories.map(
