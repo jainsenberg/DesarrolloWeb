@@ -67,3 +67,14 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.card-grid{
+  background-color: #535bf2;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+.card{
+  border-radius: 20px;
+
+}
